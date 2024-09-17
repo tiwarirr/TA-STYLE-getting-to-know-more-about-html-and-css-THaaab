@@ -1,68 +1,44 @@
-<!-- 
-### Create a website having 3 separate pages.
-
-#### TODO 💻:
-
-1. Create a multi-page website, having at least three pages connected.
-
-2. Each page must have one header and footer.
-
-3. In between the header and footer, there must be the main content of the page.
-
-4. The main content must have at least two articles.
-
-5. Each article must have one image.
-
-6. Use different background colors for different pages.
-
-7. Using CSS resets is necessary.
-
-- use appropriate semantic tags and keep the nesting and indentation clean. -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Articles</title>
+    <title>Apoorv Consultancy Services</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body id="top">
+<body class="home">
     <header>
-        <h1>List of Articles</h1> <br>
+        <h1>Welcome the wonder world of Apoorv Consultancy!!!</h1>
         <nav>
+            <a href="index.html">Home</a>
             <a href="about.html">About</a>
-            <a href="#contact">Contact</a>
-            <a href="services.html">Services</a>
-            <a href="https://www.google.com/">Google</a>
+            <a href="contact.html">Contact Us</a>
         </nav>
-    </header> <br>
+    </header>
     <main>
-        <article>
-            <h2>Lorem ipsum dolor sit.</h2> <br>
-            <img src="/block-BHaaam/images/cat.jpeg" alt="cat"> <br>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat unde cupiditate voluptatibus deserunt eveniet cumque tenetur repellendus optio consectetur animi culpa facilis dolorum quaerat ipsa, aspernatur ad, architecto, accusantium veritatis dolore. Animi delectus culpa atque explicabo quas ex commodi excepturi voluptas nemo! Aliquam quibusdam numquam voluptas architecto, vero quisquam esse deserunt odio illum quidem voluptate, modi distinctio, earum voluptatibus perferendis neque hic. Sequi officiis laborum tenetur optio quo unde quibusdam voluptates impedit, facere eaque, vel adipisci? Sit amet nobis labore explicabo sunt deleniti maiores saepe dolor ratione! Natus excepturi magni delectus minus, veniam dolore assumenda corrupti ullam distinctio, blanditiis tenetur.</p> <br>
-            </div>
-        </article> <br><br>
-        <article>
-            <h2>Amet Consectetur Adipisicing</h2> <br>
-            <img src="images/dog.jpeg" alt="dog"> <br>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat unde cupiditate voluptatibus deserunt eveniet cumque tenetur repellendus optio consectetur animi culpa facilis dolorum quaerat ipsa, aspernatur ad, architecto, accusantium veritatis dolore. Animi delectus culpa atque explicabo quas ex commodi excepturi voluptas nemo! Aliquam quibusdam numquam voluptas architecto, vero quisquam esse deserunt odio illum quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ea rerum dicta quae doloribus necessitatibus fugit vitae mollitia, sapiente earum sunt suscipit cum itaque est? Totam cum voluptatum reprehenderit provident? </p> <br>
-            </div>
-        </article>
+        <section>
+            <article>
+                <h2>Introduction to Our Services</h2>
+                <img src="./images/dog.jpeg" alt="dog" width="300">
+                <p>
+                    Established in 2010, we have grown from a small startup into a global company, serving clients across various industries.
+                </p>
+            </article>
+            <article>
+                <h2>Why Choose Us?</h2>
+                <img src="./images/cat.jpeg" alt="cat" width="300">
+                <p>
+                    With years of experience and a customer-first approach, we guarantee satisfaction. Learn more about our unique offerings and commitment to excellenceWith years of experience and a customer-first approach, we guarantee satisfaction. Learn more about our unique offerings and commitment to excellence.
+                </p>
+            </article>
+        </section>
+        
     </main>
     <footer>
-        <h4>Footer</h4> <br>
-        <nav id="contact">
-            <a href="https://www.facebook.com/login/">Facebook</a>
-            <a href="https://www.instagram.com/">Instagram</a>
-            <a href="https://twitter.com/aparna__28">Twitter</a>       
-        </nav> <br>
-        <button> <a href="mailto:tiwari.aparna2899@gmail.com?subject=Articles&body=Hi">Mail me</a></button>
-        <button><a href="#top">Back to top</a></button>
+        <p>
+            © 2024 Our Website. All rights reserved.
+        </p>
     </footer>
+    
 </body>
 </html>

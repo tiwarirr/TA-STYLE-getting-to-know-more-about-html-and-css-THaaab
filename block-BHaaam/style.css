@@ -1,3 +1,8 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -42,21 +47,44 @@ table {
 	border-spacing: 0;
 }
 
+/*-----CSS RESET ENDS HERE-----*/
+.home{
+	background-color: aqua;
+}
+.about{
+	background-color: bisque;
+}
+.contact{
+	background-color: blueviolet;
+}
 body{
-    background-color: rgb(237, 231, 247);
+	line-height:1.5;
 }
-h1{
-    font-size: 50px; 
-    font-weight: 600;
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 30px;
 }
-h2{
-    font-size: 24px;
+h2 {
+	font-size: 24px;
+	margin-bottom: 30px;
 }
-p{
-    font-size: 18px;
-    line-height: 1.2;
+header{
+	text-align: center;
+	margin-bottom: 60px;
+	background-color: cadetblue;
+	padding: 24px;
 }
-img{
-    height: 200px;
-    width: 300px;
+article{
+	margin-bottom: 60px;
+}
+p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+footer{
+	text-align: center;
+	background-color: cadetblue;
+	padding: 24px;
 }
